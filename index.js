@@ -5,7 +5,7 @@ const cors = require("cors");
 const PORT = 4000;
 const socketIO = require("socket.io")(http, {
     cors: {
-        origin: "realtime-react-silk.vercel.app",
+        origin: "https://flux-kappa.vercel.app",
     },
 });
 
